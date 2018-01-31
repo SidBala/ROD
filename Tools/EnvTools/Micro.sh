@@ -1,4 +1,7 @@
 mkdir -p /tmp/micro
 cd /tmp/micro
-wget -o micro.tar.gz https://github.com/zyedidia/micro/releases/download/nightly/micro-1.4.1-dev.10-linux64.tar.gz
+wget -O micro.tar.gz https://github.com/zyedidia/micro/releases/download/nightly/micro-1.4.1-dev.10-linux64.tar.gz
 tar xvf micro.tar.gz
+cp micro-1.4.1-dev.10/micro /usr/local/bin/
+
+echo 'ALL DONE'
