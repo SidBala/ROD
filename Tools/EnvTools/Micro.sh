@@ -4,4 +4,4 @@ wget https://github.com/zyedidia/micro/releases/download/nightly/micro-1.4.1-dev
 tar xvf micro-1.4.1-dev.10-linux64.tar.gz
 cp micro-1.4.1-dev.10/micro /usr/local/bin/
 
-echo 'ALL DONE'
+echo 'MICRO INSTALLED'

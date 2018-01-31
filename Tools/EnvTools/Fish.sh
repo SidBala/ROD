@@ -5,3 +5,6 @@ wget -nv https://download.opensuse.org/repositories/shells:fish:release:2/Debian
 apt-key add - < Release.key
 apt-get -y update
 apt-get install -y fish
+
+echo 'FISH SHELL INSTALLED'
+
